@@ -12,6 +12,7 @@ import { MatMenuModule } from '@angular/material/menu';
 import { MatSidenavModule } from '@angular/material/sidenav';
 import { MatToolbarModule } from '@angular/material/toolbar';
 import { MatTooltipModule } from '@angular/material/tooltip';
+import { MatSelectModule } from '@angular/material';
 
 import {FlexLayoutModule,} from '@angular/flex-layout';
 
@@ -40,6 +41,7 @@ const MATERIAL_MODULES: any[] = [
   MatExpansionModule,
   MatTooltipModule,
   MatDialogModule,
+  MatSelectModule,
 ];
 
 @NgModule({
